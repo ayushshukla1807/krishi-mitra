@@ -482,3 +482,81 @@ body {
     font-size: 2rem;
   }
 }
+
+/* Language Switcher Styles */
+.language-switcher {
+  position: relative;
+  display: inline-block;
+}
+
+.language-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+  margin-top: 0.5rem;
+}
+
+.language-option {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+}
+
+.language-option:hover {
+  background: var(--background);
+}
+
+/* Enhanced Table Styles */
+.table th {
+  position: sticky;
+  top: 0;
+}
+
+/* Land Usage Visualization */
+.land-usage-bar {
+  display: flex;
+  height: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.land-segment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+/* Category Badges */
+.category-badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* Worker Avatar */
+.worker-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}

@@ -8,8 +8,8 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import Crops from './pages/Crops';
-import PestDetection from './pages/PestDetection';
-import Weather from './pages/Weather';
+import Workers from './pages/Workers';
+import CropSuggestion from './pages/CropSuggestion';
 import MarketPrices from './pages/MarketPrices';
 import MachineRental from './pages/MachineRental';
 import Community from './pages/Community';
@@ -29,8 +29,8 @@ function App() {
               <Route path="/register" element={<Register />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/crops" element={<Crops />} />
-              <Route path="/pest-detection" element={<PestDetection />} />
-              <Route path="/weather" element={<Weather />} />
+              <Route path="/workers" element={<Workers />} />
+              <Route path="/crop-suggestion" element={<CropSuggestion />} />
               <Route path="/market-prices" element={<MarketPrices />} />
               <Route path="/machine-rental" element={<MachineRental />} />
               <Route path="/community" element={<Community />} />

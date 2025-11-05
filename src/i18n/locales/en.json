@@ -1,0 +1,46 @@
+{
+  "app": {
+    "title": "Krishi Mitra",
+    "description": "Digital Farming Assistant"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "crops": "My Crops",
+    "workers": "Workers",
+    "cropSuggestion": "Crop Suggestion",
+    "marketPrices": "Market Prices",
+    "machineRental": "Machine Rental",
+    "community": "Community",
+    "profile": "Profile",
+    "login": "Login",
+    "register": "Sign Up",
+    "logout": "Logout"
+  },
+  "home": {
+    "welcome": "Welcome to Krishi Mitra",
+    "tagline": "Your Digital Farming Assistant - Empowering Farmers with Technology",
+    "getStarted": "Get Started Free",
+    "signIn": "Sign In"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "subtitle": "Here's what's happening with your farm today",
+    "activeCrops": "Active Crops",
+    "pendingTasks": "Pending Tasks",
+    "expectedRevenue": "Expected Revenue",
+    "cropHealth": "Crop Health",
+    "farmTools": "Farm Management Tools"
+  },
+  "workers": {
+    "title": "Workers Management",
+    "subtitle": "Manage and hire farm workers",
+    "addWorker": "Add Worker",
+    "name": "Name",
+    "contact": "Contact Number",
+    "area": "Area/Location",
+    "wages": "Daily Wages (₹)",
+    "availableWorkers": "Available Workers",
+    "addNewWorker": "Add New Worker"
+  }
+}
